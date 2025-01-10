@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checkout_kata_AK", "checkout_kata_AK.csproj", "{4DFE6D04-16D5-4B44-B13F-54C7821DC19A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checkout_kata_AK_Tests", "..\checkout_kata_AK_Tests\checkout_kata_AK_Tests.csproj", "{3895D8CB-1FBA-4D75-996C-38A82F7947DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DFE6D04-16D5-4B44-B13F-54C7821DC19A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DFE6D04-16D5-4B44-B13F-54C7821DC19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DFE6D04-16D5-4B44-B13F-54C7821DC19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DFE6D04-16D5-4B44-B13F-54C7821DC19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3895D8CB-1FBA-4D75-996C-38A82F7947DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3895D8CB-1FBA-4D75-996C-38A82F7947DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3895D8CB-1FBA-4D75-996C-38A82F7947DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3895D8CB-1FBA-4D75-996C-38A82F7947DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
