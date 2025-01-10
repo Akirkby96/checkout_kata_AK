@@ -1,4 +1,4 @@
-﻿namespace checkout_kata_AK
+﻿namespace Checkout.Kata
 {
     public class CheckoutKata
     {
