@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checkout_kata_AK", "checkout_kata_AK.csproj", "{4DFE6D04-16D5-4B44-B13F-54C7821DC19A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.Kata", "Checkout.Kata.csproj", "{4DFE6D04-16D5-4B44-B13F-54C7821DC19A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checkout_kata_AK_Tests", "..\checkout_kata_AK_Tests\checkout_kata_AK_Tests.csproj", "{3895D8CB-1FBA-4D75-996C-38A82F7947DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.Kata.Tests", "..\checkout_kata_AK_Tests\Checkout.Kata.Tests.csproj", "{3895D8CB-1FBA-4D75-996C-38A82F7947DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Checkout.Kata.Tests", "Checkout.Kata.Tests", "{44D04D54-4064-44F8-98AB-1594A9B66947}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Checkout.Kata", "Checkout.Kata", "{6E970933-C00E-42C6-A3EC-347A4A182D6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DFE6D04-16D5-4B44-B13F-54C7821DC19A} = {6E970933-C00E-42C6-A3EC-347A4A182D6D}
+		{3895D8CB-1FBA-4D75-996C-38A82F7947DF} = {44D04D54-4064-44F8-98AB-1594A9B66947}
 	EndGlobalSection
 EndGlobal
