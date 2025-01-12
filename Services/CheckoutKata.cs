@@ -25,12 +25,25 @@ namespace Checkout.Kata.Services
 
 
         /// <summary>
-        /// 
+        /// Scans an item and increments the count of that item
         /// </summary>
         /// <param name="item"></param>
         public void Scan(string item)
         {
-            throw new System.NotImplementedException();
+            // Check if item is null or empty
+            if (string.IsNullOrEmpty(item))
+                throw new ArgumentException("Item cannot be null or empty", nameof(item));
+
+            // Check if we have pricing rules for this item
+            if (!_pricingRules.ContainsKey(item))
+                throw new ArgumentException($"No pricing rule found for item {item}", nameof(item));
+
+            // Initialize counter for this item if it's the first time we're seeing it
+            if (!_scannedItems.ContainsKey(item))
+                _scannedItems[item] = 0;
+
+            // Increment the count of this item
+            _scannedItems[item]++;
         }
 
         /// <summary>
